@@ -1,17 +1,27 @@
 import React from 'react';
 import './Cards.css';
 
-// By importing the Section.css file, it is added to the DOM whenever this component loads
 
+// const Cards = props => (
+//   <div className="card col-lg-3"
+//       id={props.name}
+//       onClick={() => props.handleClick(props.name)}
+//     >
+//       <img alt={props.name} src={ props.image} />
+      
+//   </div>
+// );
 
-const Cards = props => (
-  <div className='cards' onClick={props.imageClick}>
-    <div className="img-container">
-      <img alt={props.image.replace('.jpg', '')} src={require('../../images' + props.image)} />
+function Cards(props) {
+  return (
+    <div className="card">
+      <div className="img-container">
+        <img alt={props.name} src={props.image} />
+      </div>
+
+      <span className="remove">𝘅</span>
     </div>
-  </div>
-);
-
+  );
+}
 
 export default Cards;
-
