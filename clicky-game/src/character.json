@@ -1,13 +1,15 @@
 [
   {
     "id": 1,
-    "name": "desmond",
-    "image": "desmond.jpg"
+    "name": "Desmond",
+    "image": "http://photos1.blogger.com/blogger/4793/4078/1600/02x23_11.jpg",
+    "alt": "Desmond"
   }, 
   {
     "id": 2,
-    "name": "",
-    "image": ""
+    "name": "Jack",
+    "image": "https://i.pinimg.com/originals/9c/71/01/9c7101916cbf3ca70aa858c430f14bcf.jpg",
+    "alt": "Jack"
   },
   {
     "id": 3,
