@@ -17,7 +17,7 @@ class Navbar extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto nav-menu">
                 <li className="nav-item score">
-                  Score: {this.props.score} Top Score: {this.props.topScore}</li>
+                  Score: {this.props.score} | Top Score: {this.props.topScore}</li>
               </ul>
             </div>
           </div>
